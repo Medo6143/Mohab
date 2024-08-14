@@ -12,11 +12,6 @@ export const Projects = () => {
         </h1>
       </div>
 
-      <div>
-        <ButtonFilter/>
-    
-      </div>
-
     </section>
   );
 };
