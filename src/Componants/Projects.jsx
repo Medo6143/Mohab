@@ -11,7 +11,7 @@ export const Projects = () => {
           Projects
         </h1>
       </div>
-
+      <h1 className="text-white text-center mt-16 text-[20px] font-bold font-serif ">Stay Tuned</h1>
     </section>
   );
 };

@@ -12,7 +12,7 @@ export const Skils = () => {
       </div>
 
       <div className="bg-transtparent mx-auto w-full sm:w-[70%]  text-center mt-12    ">
-          <img src={url} alt="" className="h-[400px] mx-auto rounded-xl w-[70%]" />
+          <img src={url} alt="" className="h-[300px] sm:h-[400px] mx-auto rounded-xl w-[70%]" />
       </div> 
     </section>
   );
