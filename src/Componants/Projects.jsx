@@ -33,7 +33,7 @@ export const Projects = () => {
             <Button button={project.name} click={() => handleProjectChange(project.name)} />
             <div className={`flex mt-3 text-center flex-row ${selectedProject === project.name ? "" : "hidden"} justify-center w-full`}>
               {project.tools.map((tool) => (
-                <button key={tool} className="bg-blue-500 text-white px-4 py-2 rounded-xl hover:bg-slate-700 border-none mr-3 w-[50%] cursor-pointer">
+                <button key={tool} className="bg-blue-500 text-white px-4 mt-4 py-2 rounded-xl hover:bg-slate-700 border-none mr-3 w-[50%] cursor-pointer">
                   {tool}
                 </button>
               ))}
