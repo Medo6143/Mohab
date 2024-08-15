@@ -25,7 +25,7 @@ function App() {
         <Home />
         <About />
         <Skils />
-        <Projects />
+        <Projects/>
         <MobileList/>
       </main>
     </div>
